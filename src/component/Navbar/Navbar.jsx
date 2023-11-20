@@ -27,10 +27,10 @@ export const Navbar = ({route}) => {
     return (
         <header className="heading d-flex grow-shrink-basis align-center">
             <div className="heading-title-icon d-flex grow-shrink-basis align-center">
-                <img className="icon mr-1" src="/assets/image.png" alt="logo" />
+                <img className="icon mr-1" src="https://png.pngitem.com/pimgs/s/79-794327_transparent-horse-icon-png-emblem-png-download.png" alt="logo" />
                 <h1 className="heading-title">
                     {
-                        route === "home" || route === "login" ? (<Link to="/" className="link">Quizify</Link>) : "Quizify"
+                        route === "home" || route === "login" ? (<Link to="/" className="link">QuizzicalMind</Link>) : "QuizzicalMind"
                     }
                 </h1>
             </div>

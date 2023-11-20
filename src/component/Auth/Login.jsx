@@ -39,7 +39,7 @@ export const AuthLogin = () => {
     }
 
     const handleTestCredentialsClick = () => {
-        const token = loginHandler("prakashsakari", "ps12345");
+        const token = loginHandler("shreyaranjan", "sr12345");
         authDispatch({
             type: "TOKEN",
             payload: token
@@ -56,7 +56,7 @@ export const AuthLogin = () => {
                 <form onSubmit={handleLoginClick}>
                     <div className="form-container">
                         <label className="form-label">Username</label>
-                        <input value={username} className="form-input lh-ls" placeholder="prakashsakari" onChange={handleUserNameChange}/>
+                        <input value={username} className="form-input lh-ls" placeholder="shreyaranjan" onChange={handleUserNameChange}/>
                     </div>
                     <div className="form-container">
                         <label className="form-label">Password</label>

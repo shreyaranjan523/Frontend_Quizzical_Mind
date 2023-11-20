@@ -13,7 +13,7 @@ export const Result = () => {
             <main className="results d-flex direction-column align-center justify-center">
                 <h2>Result</h2>
                 <div>
-                    <span>Your score is {score} 🍕🍕</span>
+                    <span>Your score is {score} 🍕</span>
                 </div>
             </main>
             
